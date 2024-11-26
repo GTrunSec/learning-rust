@@ -17,7 +17,7 @@ jobs:
         with:
           fail-mode: true
 
-      - uses: nixbuild/nix-quick-install-action@v25
+      - uses: nixbuild/nix-quick-install-action@v26
         with:
           nix_conf: |
             experimental-features = nix-command flakes
